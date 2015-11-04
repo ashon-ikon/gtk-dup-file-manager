@@ -9,7 +9,7 @@ AC_INIT([dup-file-manager], [0.0.1], [gigalimit20 at yahoo dot com])
 # We'll be storing our m4 files in 'm4' dir
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([-Wall -Werror foriegn])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 AC_PREREQ([2.66])
 
