@@ -1,0 +1,50 @@
+*~
+# Windows
+*.user
+*.log
+*.tlog
+*.cache
+*.obj
+*.sdf
+*.opensdf
+*.lastbuildstate
+*.unsuccessfulbuild
+*.suo
+*.res
+*.ipch
+*.manifest
+vs2010/DLL_Debug/*
+vs2010/DLL_Release/*
+vs2010/LIB_Debug/*
+vs2010/LIB_Release/*
+vs2010/LIB_OpenCL_Release/*
+vs2010/LIB_OpenCL_Debug/*
+
+
+
+# Linux
+# ignore local configuration
+config.*
+config/*
+Makefile
+Makefile.in
+*.m4
+
+# ignore help scripts/files
+configure
+install-sh
+missing
+libtool
+stamp-h1
+config_auto.h
+doc/html/*
+*.patch
+
+# ignore compilation files
+*/.deps/*
+*/.libs/*
+*.lo
+*.la
+*.o
+*.a
+
