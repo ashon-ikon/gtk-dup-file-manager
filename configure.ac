@@ -19,12 +19,13 @@ AC_CONFIG_HEADERS([config.h])
 
 # ===================
 # Dependencies
-PKG_CONFIG_MODULES([DUPFILEMANAGER], [gtkmm-3.0 >= 3.8.0])
+PKG_CHECK_MODULES([DUPMANAGER], [gtkmm-3.0 >= 3.8.0])
 
 # ===================
 # Makefiles
 AC_CONFIG_FILES([
 	Makefile
+	src/Makefile
 ])
 AC_OUTPUT
 
