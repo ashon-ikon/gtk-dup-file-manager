@@ -48,3 +48,4 @@ doc/html/*
 *.o
 *.a
 
+src/Makefile
