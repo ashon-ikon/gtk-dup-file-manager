@@ -49,3 +49,5 @@ doc/html/*
 *.a
 
 src/Makefile
+/src/dupmanager
+/nbproject/

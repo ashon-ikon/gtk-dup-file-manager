@@ -1,8 +1,8 @@
 #
 ## 
-#
+#	
 bin_PROGRAMS = dupmanager
-dupmanager_SOURCES = main.cpp
+dupmanager_SOURCES = *.cpp
 
-dupmanager_CPPFLAGS = @DUPMANAGER_CFLAGS@
-dupmanager_LDADD = @DUPMANAGER_LIBS@
+dupmanager_CPPFLAGS = $(GTKMM_CFLAGS)
+dupmanager_LDADD = $(GTKMM_LIBS)

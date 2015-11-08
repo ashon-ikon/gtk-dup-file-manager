@@ -1,12 +1,9 @@
 #include <iostream>
-#include <gtkmm.h>
+#include  "DMWindow.h"
 
 int main(int argc, char ** argv) {
-	Glib::RefPtr<Gtk::Application> app = 
-		Gtk::Application::create(argc, argv, "com.ashon-associates.gtk-dup-file.manager");
-
-	Gtk::Window win;
+	DupManager::DMWindow application;
 
 	// Run the application
-	return app->run(win);
+	return application.run(argc, argv);
 }

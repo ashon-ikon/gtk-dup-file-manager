@@ -19,7 +19,7 @@ AC_CONFIG_HEADERS([config.h])
 
 # ===================
 # Dependencies
-PKG_CHECK_MODULES([DUPMANAGER], [gtkmm-3.0 >= 3.8.0])
+PKG_CHECK_MODULES([GTKMM], [gtkmm-3.0 >= 3.8.0])
 
 # ===================
 # Makefiles
