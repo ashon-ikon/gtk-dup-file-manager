@@ -6,6 +6,7 @@
 #ifndef __FSWINDOW_H__
 #define	__FSWINDOW_H__
 
+#include <iostream>
 #include <gtkmm/window.h>
 
 namespace DupManager {
@@ -16,15 +17,15 @@ namespace DupManager {
         DMWindow(const DMWindow& orig);
         virtual ~DMWindow();
         
-        int run(int argc, char * argc[]);
+        int run(int argc, char * argv[]);
     private:
         
     protected:
         void setupWindow(const char*);
         
         
-        Glib::RefPtr<Gtk::Application> m_application = nullptr_t;
-        Gtk::Window m_window = nullptr_t;
+        Glib::RefPtr<Gtk::Application> m_application;
+        Gtk::Window * m_window = nullptr;
 
     };
 };
