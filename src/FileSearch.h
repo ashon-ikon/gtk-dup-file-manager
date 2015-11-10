@@ -6,13 +6,15 @@
 #define __FILE_SEARCH_H__
 #include "DMWindow.h"
 
-class FileSearch {
+namespace DupManager {
 
-public:
-    FileSearch();
-    FileSearch(const FileSearch & orig);
-    virtual ~FileSearch();
+    class FileSearch {
+    public:
+        FileSearch();
+        FileSearch(const FileSearch & orig);
+        virtual ~FileSearch();
 
-    int run(int, char*[]);
-};
+        int run(int, char*[]);
+    };
+}
 #endif /* __FILE_SEARCH_H__ */

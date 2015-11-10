@@ -25,11 +25,11 @@ namespace DupManager {
      * @param argc
      * @return 
      */
-    int DMWindow::run(int argc, char* argc[]) {
+    int DMWindow::run(int argc, char* argv[]) {
         m_application = Gtk::Application::create(argc, argv, "com.ashon-associates.gtk-dup-file.manager");
         
         setupWindow("Window Name");
-        return this->m_application->run(this->m_window);
+        return this->m_application->run(*this->m_window);
     }
     
     void DMWindow::setupWindow(const char* title) {

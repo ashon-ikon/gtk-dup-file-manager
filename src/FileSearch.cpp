@@ -1,5 +1,5 @@
 #include "FileSearch.h"
-#include "FSWindow.h"
+#include "DMWindow.h"
 
 namespace DupManager {
 
@@ -19,9 +19,10 @@ namespace DupManager {
         /*
          * We'll create the application so we can run it from here
          */
-        Glib::PtrRef<Gtk::Application> application Gkt::Application::create(argc, argv, "");
-
-        FSWindow = new Gtk::Window();
+//        Glib::PtrRef<Gtk::Application> application Gkt::Application::create(argc, argv, "");
+//
+//        FSWindow = new Gtk::Window();
+        return 0;
     }
 
 };

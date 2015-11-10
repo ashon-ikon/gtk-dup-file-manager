@@ -25,7 +25,7 @@ namespace DupManager {
         
         
         Glib::RefPtr<Gtk::Application> m_application;
-        Gtk::Window * m_window = nullptr;
+        Gtk::Window * m_window;
 
     };
 }
