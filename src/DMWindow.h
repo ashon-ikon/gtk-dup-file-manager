@@ -3,11 +3,11 @@
  * @author Yinka Ashon
  * @created 2015-11-08
  */
-#ifndef __FSWINDOW_H__
-#define	__FSWINDOW_H__
+#ifndef __DMWINDOW_H__
+#define	__DMWINDOW_H__
 
-#include <iostream>
 #include <gtkmm/window.h>
+#include <iostream>
 
 namespace DupManager {
 
@@ -28,6 +28,6 @@ namespace DupManager {
         Gtk::Window * m_window = nullptr;
 
     };
-};
-#endif	/* __FSWINDOW_H__ */
+}
+#endif	/* __DMWINDOW_H__ */
 
