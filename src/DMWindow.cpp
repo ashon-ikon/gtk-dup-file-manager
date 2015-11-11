@@ -17,6 +17,8 @@ namespace DupManager {
     }
 
     DMWindow::~DMWindow() {
+        // Free up all memory we've used
+        delete this->m_window;
     }
     
     /**
